@@ -223,7 +223,6 @@ void GameScreen::Input()
 				// Muzigi durdur
 				mGameMusic.stop();
 
-				mScreenCallbackFunction(this->GetGameScreenType(), TetrisEvents::eTETRIS_EVENT_SAVE_SCORES);
 				mScreenCallbackFunction(this->GetGameScreenType(), TetrisEvents::eTETRIS_EVENT_GAME_RETURN_MENU);
 			}
 
