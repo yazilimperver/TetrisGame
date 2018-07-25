@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="TetrisGamePrototype.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScore.cpp">
+      <Filter>Code\Screens\GameScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisFigure.cpp">
+      <Filter>Code\Screens\GameScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisTable.cpp">
+      <Filter>Code\Screens\GameScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisGame.cpp">
+      <Filter>Code\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreen.cpp">
+      <Filter>Code\Screens\GameScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashScreen.cpp">
+      <Filter>Code\Screens\SplashScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScreen.cpp">
+      <Filter>Code\Screens\MenuScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomNumberGenerator.cpp">
+      <Filter>Code\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="HighScoresScreen.cpp">
+      <Filter>Code\Screens\HighScoresScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioFx.cpp">
+      <Filter>Code\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsScreen.cpp">
+      <Filter>Code\Screens\OptionsScreen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameScore.h">
+      <Filter>Code\Screens\GameScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDuration.h">
+      <Filter>Code\Screens\GameScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="FigureType.h">
+      <Filter>Code\Screens\GameScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisFigure.h">
+      <Filter>Code\Screens\GameScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisTable.h">
+      <Filter>Code\Screens\GameScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisGame.h">
+      <Filter>Code\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisDefinitions.h">
+      <Filter>Code\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDifficulty.h">
+      <Filter>Code\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScreen.h">
+      <Filter>Code\Screens\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenType.h">
+      <Filter>Code\Screens\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreen.h">
+      <Filter>Code\Screens\GameScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashScreen.h">
+      <Filter>Code\Screens\SplashScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisEvents.h">
+      <Filter>Code\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScreen.h">
+      <Filter>Code\Screens\MenuScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomNumberGenerator.h">
+      <Filter>Code\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="HighScoresScreen.h">
+      <Filter>Code\Screens\HighScoresScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioFx.h">
+      <Filter>Code\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="HighScoreData.h">
+      <Filter>Code\Screens\HighScoresScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOptionsData.h">
+      <Filter>Code\Screens\OptionsScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsScreen.h">
+      <Filter>Code\Screens\OptionsScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLevel.h">
+      <Filter>Code\Screens\GameScreen</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{8afe68ab-b983-4a02-9e4c-d1f09879f174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Screens">
+      <UniqueIdentifier>{f9c463ca-b8da-46a3-aec0-e930fff5dc89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Screens\GameScreen">
+      <UniqueIdentifier>{543eaf2d-0cc8-4590-ab89-b37f8b0861ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Common">
+      <UniqueIdentifier>{dba46a3c-043f-43fb-86f3-79e786acb380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Screens\Common">
+      <UniqueIdentifier>{b132d81b-a9b9-4dce-abaa-e7325b4b1866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Screens\SplashScreen">
+      <UniqueIdentifier>{66f21613-f0d1-429a-a7b7-254a12c06df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Screens\MenuScreen">
+      <UniqueIdentifier>{aac7f268-efb4-4f7a-9415-2187221fe8d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Screens\HighScoresScreen">
+      <UniqueIdentifier>{a1ccf29a-7cb5-4050-948a-228c6b131fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Screens\OptionsScreen">
+      <UniqueIdentifier>{cb93c4be-ea69-4303-8555-0e2acd96f4fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
