@@ -174,6 +174,7 @@ void GameScreen::PostInitialize()
 
 	// Muzigi cal
 	mGameMusic.setVolume(static_cast<float>(mOptions.mMusicLevel));
+	mGameMusic.setLoop(true);
 	mGameMusic.play();
 
 	mGameDuration.Reset();
